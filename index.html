@@ -5,9 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carousel Component</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <section class="carousel"><</section>
+    <h1>🍕 Carousel Component 😎</h1>
+
+    <section class="carousel">
+      <div class="row">
+        <div class="slider-image">
+          <img src="./images/maria.jpg" alt="maria photo" />
+        </div>
+        <div class="slider-text">
+          <div class="text">
+            <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>Consequuntur libero ex quisquam animi in reprehenderit</p>
+            <p>veniam mollitia ratione. Voluptas dolores ad error?</p>
+            <p>Quas tempore officia Voluptas dolores possimus?</p>
+            <p>Quas tempore officia."</p>
+          </div>
+          <div class="text-author">
+            <p>Maria de almeida</p>
+            <p>Senior Product Manager at EDP Comerical</p>
+          </div>
+        </div>
+        <div class="left-arrow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="64"
+            height="64"
+            fill="#d6d1d1"
+            stroke="#d6d1d1"
+            viewBox="0 0 256 256"
+          >
+            <circle
+              cx="128"
+              cy="128"
+              r="96"
+              fill="#fff"
+              stroke="#fff"
+              stroke-miterlimit="10"
+              stroke-width="16"
+            ></circle>
+            <polyline
+              points="144 92 104 128 144 164"
+              fill="none"
+              stroke="#09723a"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="5"
+            ></polyline>
+          </svg>
+        </div>
+        <div class="right-arrow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="64"
+            height="64"
+            fill="#d6d1d1"
+            viewBox="0 0 256 256"
+          >
+            <circle
+              cx="128"
+              cy="128"
+              r="96"
+              fill="#fff"
+              stroke="#fff"
+              stroke-miterlimit="10"
+              stroke-width="16"
+            ></circle>
+            <polyline
+              points="116 92 156 128 116 164"
+              fill="none"
+              stroke="#09723a"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="5"
+            ></polyline>
+          </svg>
+        </div>
+        <div class="bullet">
+          <div class="bullet-dot dot-fill">&nbsp;</div>
+          <div class="bullet-dot">&nbsp;</div>
+          <div class="bullet-dot">&nbsp;</div>
+          <div class="bullet-dot">&nbsp;</div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

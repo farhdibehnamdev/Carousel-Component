@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  margin: 40px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.carousel {
+  margin: 100px auto 25px;
+  width: 960px;
+  background-color: #09713c;
+  border-radius: 10px;
+  box-shadow: 0 0 32px rgba(48, 43, 43, 0.2);
+}
+
+.row {
+  position: relative;
+  padding: 5px 20px 5px 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+/***********************
+ * SLIDER TEXT *
+ ***********************/
+.text {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+.text-author {
+  font-size: 14px;
+  color: #abe7c7;
+}
+
+.slider-text {
+  color: #fff;
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slider-image img {
+  width: 300px;
+  height: auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  transform: scale(1.2);
+}
+
+/***********************
+  ARROW SECTION 
+ ***********************/
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.left-arrow svg {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  cursor: pointer;
+}
+
+.right-arrow svg {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  cursor: pointer;
+}
+
+/**************************************
+ * BULLET SECTION   *
+ **************************************/
+.bullet {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-40%, 33px);
+  gap: 15px;
+}
+.bullet-dot {
+  background-color: #f5f3f3;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #09713c;
+  cursor: pointer;
+}
+.dot-fill {
+  background-color: #09713c;
+}
